@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:maxLength="12" />
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="GO"
+            android:theme="@style/RippleWhite" />
+
+
+        <Button
+            android:id="@+id/oneBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="1"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/twoBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="2"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/threeBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="3"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/backspaceBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="C"
+            android:theme="@style/RippleWhite" />
+
+
+        <Button
+            android:id="@+id/fourBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="4"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/fiveBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="5"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/sixBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="6"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="70dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="A"
+            android:theme="@style/RippleWhite" />
+
+
+        <Button
+            android:id="@+id/sevenBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="7"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/eightBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="8"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/nineBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="9"
+            android:theme="@style/RippleWhite" />
+
+
+        <Button
+            android:id="@+id/hashBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="#"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/zeroBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="130dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="0"
+            android:theme="@style/RippleWhite" />
+
+        <Button
+            android:id="@+id/asteriskBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="130dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="*"
+            android:theme="@style/RippleWhite" />
+
+    </RelativeLayout>
+
+
+</android.support.wear.widget.BoxInsetLayout>
